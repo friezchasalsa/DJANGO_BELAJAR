@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #fdbef8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(39, 2, 31, 0.1);
+            text-align: center;
+            border-top: 5px solid #da4885;
+        }
+        h1 { color: #da4885; }
+        p { color: #666; }
+    </style>
+
+<body class="index">
+
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/biodata/">Biodata</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/kontak/">Kontak</a></li>
+    </ul>
+     
+</nav>
+
+<div class="card">
+    <h1>halo all! welcome to pinky's web nya cuca🤪</h1>
+    <p>ini pertama kali aku bikin website di Django lohhh</p>
+    <p>tolong jangan dihujat yaa wkwk🤣</p>
+</div>
+
+</body>
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">

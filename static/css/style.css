@@ -1,0 +1,154 @@
+/* Navbar */
+nav {
+    background-color: #9c1257;
+    padding: 15px;
+    
+    position: fixed;   /* bikin nempel di atas */
+    top: 0;
+    left: 0;
+    width: 100%;       /* full lebar layar */
+    
+    z-index: 1000;     /* biar di atas semua elemen */
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center; /* tengah */
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li a {
+    color: rgb(235, 169, 191) !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+nav ul li a:hover {
+    color: white !important;
+}
+
+
+
+
+/* Umum */
+body {
+    margin: 0;
+    padding-top: 30px;
+    font-family: Arial;
+}
+
+/* HALAMAN INDEX */
+.index {
+    text-align: center;
+}
+
+/* HALAMAN BIODATA */
+.biodata {
+    background-color: #f098c4;
+}
+.biodata h1 {
+    text-align: center;
+    color: #c20a66;
+}
+
+.biodata p {
+    text-align: justify;
+    color: #9c1257;
+}
+
+/* HALAMAN BLOG */
+.blog {
+    background-color: #ec86c2;
+}
+
+
+/* HALAMAN KONTAK */
+.kontak {
+    background-color: #b63a78;
+}
+.kontak h1 {
+    text-align: center;
+    color: #9c1257;
+}
+
+/* CARD */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.card {
+    background: rgb(240, 200, 213);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* FOTO */
+.foto {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #eeaccb;
+}
+
+/* BLOG LIST */
+.blog-container {
+    width: 80%;
+    margin: auto;
+}
+
+.blog-card {
+    background: rgb(196, 23, 103);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Judul blog */
+.blog-card h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.blog-card p {
+    color: #f0cede;
+}
+
+/* Hover biar interaktif */
+.blog-card:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+/* KONTAK */
+.contact-item {
+    margin: 10px 0;
+    padding: 12px;
+    background: #f4f6f9;
+    border-radius: 8px;
+}
+
+/* Link */
+.kontak a {
+    text-decoration: none;
+    color: #a5334c;
+    font-weight: bold;
+}
+
+.kontak a:hover {
+    color: palevioletred;
+}
+
+
